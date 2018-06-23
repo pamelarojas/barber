@@ -48,15 +48,63 @@ a.nav-link{
 
 /* section  text-barber*/
 .text-barber{
-	padding: 150px;
-	margin-top: 30px;
+	padding: 100px;
 	background: #fafafa;
+}
+
+.text-barber i{
+	padding: 10px;
+}
+
+.text-barber p{
+	padding: 10px;
 }
 
 /* section iconos-barber*/
 .iconos-barber i{
-	width: 900px;
+	padding: 10px;
+	margin: 60px;
+	height: 30px;
+	
+}
+/* section noami-barber*/
+.noami-barber{
+	background-color: #fafafa;
+    padding-left: 50px;
+} 
 
+
+.noami-barber img{
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+	padding: 10px;
+	text-align: center;
+}
+
+.noami-barber h6{
+	text-align: center;
+	padding-right: 10px;
+	padding-top: 30px;
+	font-size: 15px;
+}
+
+.noami-barber p{
+    font-size: 10px;
+    padding-top: 30px;
+}
+
+/* section cortes-barber*/
+.cortes-barber{
+   background-color: #c4c0bf;
+   color: #323333;
+   padding: 10px;
+   padding-top: 30px;
+
+}
+
+.cortes-barber i fas-fa-chevron-circle-right{
+    float: right;
 }
 
 /* footer*/
@@ -68,5 +116,5 @@ a.nav-link{
 .footer-barber img{
 	padding: 10px;
 	margin: 80px;
-	im
+	
 }
