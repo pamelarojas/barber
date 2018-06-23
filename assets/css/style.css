@@ -1,0 +1,72 @@
+
+/* Global Styles */
+@import url("https://fonts.googleapis.com/css?family=PlayfairDisplay-BlackItalic.")
+
+h1{
+
+}
+
+p{
+
+}
+
+i a{
+
+}
+
+/* Navbar */
+.nav-barber{
+	background: #121619;
+}
+
+a.nav-link{
+	color: #fafafa;
+}
+
+/* hedear */
+
+.header_barber {
+  background-image: url("../img/post-image.jpg");
+  background-size: cover;
+  text-align: center;
+  height: 600px;
+  padding-top: 130px;
+  background-position: right bottom;
+}
+
+.header_barber h1{ 
+    color: #fafafa;
+    font-size: 60px;
+ }
+
+.header_barber i{
+	color: #fafafa;
+	font-size: 60px;
+	padding-top: 150px;
+}
+
+
+/* section  text-barber*/
+.text-barber{
+	padding: 150px;
+	margin-top: 30px;
+	background: #fafafa;
+}
+
+/* section iconos-barber*/
+.iconos-barber i{
+	width: 900px;
+
+}
+
+/* footer*/
+.footer-barber{
+	background:#121619;
+	height: 200px;
+}
+
+.footer-barber img{
+	padding: 10px;
+	margin: 80px;
+	im
+}
