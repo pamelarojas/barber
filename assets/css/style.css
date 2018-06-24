@@ -3,24 +3,44 @@
 @import url("https://fonts.googleapis.com/css?family=PlayfairDisplay-BlackItalic.")
 
 h1{
-
+  font-size: 3em;
 }
 
-p{
-
+h6{
+ font-size: 1em;
 }
 
-i a{
+p, i, a{
+ font-size: 1em;
+}
+
+@media only screen and (max-width : 767px) {
+
+h1 {
+font-size: 2em;
+}
+
+h6 {
+font-size: 1em;
+}
+
+p, i, a {
+font-size: 1rem;
+}
 
 }
 
 /* Navbar */
 .nav-barber{
-	background: #121619;
+	background-color: #121619;
 }
 
 a.nav-link{
 	color: #fafafa;
+}
+
+.nav-barber:hover{
+	color: red;
 }
 
 /* hedear */
@@ -45,6 +65,25 @@ a.nav-link{
 	padding-top: 150px;
 }
 
+ 
+@media only screen and (max-width : 767px) {
+
+.header_barber {
+    height: 500px;
+    padding-top: 100px;
+    background-position: center;
+  }
+
+.header_barber h1 {
+    font-size: 3em;
+  }
+
+.header_barber p {
+    padding: 1rem 4rem;
+  }
+
+}
+
 
 /* section  text-barber*/
 .text-barber{
@@ -60,11 +99,22 @@ a.nav-link{
 	padding: 10px;
 }
 
+@media only screen and (max-width : 767px) {
+.text-barber {
+    padding-top: 2vh;
+    padding-left: 15vw;
+    padding-bottom: 5vh;
+  }
+.text-barber p{
+    font-size: 2em;
+  }
+
+}
+
 /* section iconos-barber*/
 .iconos-barber i{
-	padding: 10px;
-	margin: 60px;
-	height: 30px;
+	padding: 20px;
+	font-size: 24px;
 	
 }
 /* section noami-barber*/
@@ -85,12 +135,12 @@ a.nav-link{
 .noami-barber h6{
 	text-align: center;
 	padding-right: 10px;
-	padding-top: 30px;
+	padding-top: 50px;
 	font-size: 15px;
 }
 
 .noami-barber p{
-    font-size: 10px;
+    font-size: 12px;
     padding-top: 30px;
 }
 
@@ -103,8 +153,13 @@ a.nav-link{
 
 }
 
-.cortes-barber i fas-fa-chevron-circle-right{
-    float: right;
+.cortes-barber h6{
+    text-align: center;
+    font-size: 10px;
+}
+
+.cortes-barber i{
+   font-size: 24px;
 }
 
 /* footer*/
@@ -114,7 +169,11 @@ a.nav-link{
 }
 
 .footer-barber img{
-	padding: 10px;
+	padding-bottom: 50px;
 	margin: 80px;
-	
+    
 }
+
+.footer-barber img {
+    width: 200px;
+  }
